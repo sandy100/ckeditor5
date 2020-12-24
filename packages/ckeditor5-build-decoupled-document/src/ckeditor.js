@@ -20,26 +20,23 @@ import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
-import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
-import Image from '@ckeditor/ckeditor5-image/src/image';
-import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
-import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
-import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
-import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle';
-import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
+import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
+import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters';
+import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials';
+import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 
-export default class DecoupledEditor extends DecoupledEditorBase {}
+export default class DecoupledEditor extends DecoupledEditorBase { }
 
 // Plugins to include in the build.
 DecoupledEditor.builtinPlugins = [
@@ -57,24 +54,21 @@ DecoupledEditor.builtinPlugins = [
 	Underline,
 	BlockQuote,
 	CKFinder,
-	EasyImage,
 	Heading,
-	Image,
-	ImageCaption,
-	ImageStyle,
-	ImageToolbar,
-	ImageUpload,
 	Indent,
 	IndentBlock,
 	Link,
 	List,
 	ListStyle,
-	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	TextTransformation
+	TextTransformation,
+	PageBreak,
+	SpecialCharacters,
+	SpecialCharactersEssentials,
+	HorizontalLine
 ];
 
 // Editor configuration.
@@ -101,29 +95,15 @@ DecoupledEditor.defaultConfig = {
 			'indent',
 			'outdent',
 			'|',
-			'link',
 			'blockquote',
-			'imageUpload',
 			'insertTable',
-			'mediaEmbed',
 			'|',
-			'undo',
-			'redo'
-		]
-	},
-	image: {
-		styles: [
-			'full',
-			'alignLeft',
-			'alignRight'
+			'pageBreak',
+			'|',
+			'specialCharacters',
+			'horizontalLine'
 		],
-		toolbar: [
-			'imageStyle:alignLeft',
-			'imageStyle:full',
-			'imageStyle:alignRight',
-			'|',
-			'imageTextAlternative'
-		]
+		shouldNotGroupWhenFull: true
 	},
 	table: {
 		contentToolbar: [
