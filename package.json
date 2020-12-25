@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-build-codefusion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CKEditor 5 rich text editor custom build for react.",
   "private": false,
   "keywords": [
@@ -28,8 +28,8 @@
     "@ckeditor/ckeditor5-autosave": "^24.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^24.0.0",
     "@ckeditor/ckeditor5-block-quote": "^24.0.0",
-    "ckeditor5-build-classic-codefusion": "^0.0.1",
-    "ckeditor5-build-decoupled-codefusion": "^0.0.1",
+    "ckeditor5-build-classic-codefusion": "^0.0.3",
+    "ckeditor5-build-decoupled-codefusion": "^0.0.3",
     "@ckeditor/ckeditor5-ckfinder": "^24.0.0",
     "@ckeditor/ckeditor5-clipboard": "^24.0.0",
     "@ckeditor/ckeditor5-cloud-services": "^24.0.0",

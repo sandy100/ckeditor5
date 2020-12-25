@@ -13,17 +13,35 @@ The classic editor build for CKEditor 5. Read more about the [classic editor bui
 
 ## Plugins Included
 
+- Essentials
 - Alignment
-- Bold
-- Italic
-- Heading
 - FontSize
 - FontFamily
 - FontColor
 - FontBackgroundColor
+- UploadAdapter
+- Autoformat
+- Bold
+- Italic
 - Strikethrough
 - Underline
 - BlockQuote
+- CKFinder
+- Heading
+- Indent
+- IndentBlock
+- Link
+- List
+- ListStyle
+- Paragraph
+- PasteFromOffice
+- Table
+- TableToolbar
+- TextTransformation
+- PageBreak
+- SpecialCharacters
+- SpecialCharactersEssentials
+- HorizontalLine
 
 ## Documentation
 

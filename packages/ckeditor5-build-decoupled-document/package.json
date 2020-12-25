@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-build-decoupled-codefusion",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The customized document editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
