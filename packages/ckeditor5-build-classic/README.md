@@ -3,7 +3,7 @@ CKEditor 5 customized classic editor build
 
 Custom build of CKEditor 5 classic build. Forked from the official repository.
 
-[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-classic-cf)
+[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/ckeditor5-build-classic-codefusion)
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor5-build-classic/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic)
 [![devDependency Status](https://david-dm.org/ckeditor/ckeditor5-build-classic/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic?type=dev)
 
@@ -39,7 +39,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @ckeditor/ckeditor5-build-classic-cf
+npm install --save ckeditor5-build-classic-codefusion
 ```
 
 And use it in your website:
@@ -48,7 +48,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@ckeditor/ckeditor5-build-classic-cf/build/ckeditor.js"></script>
+<script src="./node_modules/ckeditor5-build-classic-codefusion/build/ckeditor.js"></script>
 <script>
 	ClassicEditor
 		.create( document.querySelector( '#editor' ) )
@@ -64,10 +64,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic-cf';
+import ClassicEditor from 'ckeditor5-build-classic-codefusion';
 
 // Or using the CommonJS version:
-// const ClassicEditor = require( '@ckeditor/ckeditor5-build-classic-cf' );
+// const ClassicEditor = require( 'ckeditor5-build-classic-codefusion' );
 
 ClassicEditor
 	.create( document.querySelector( '#editor' ) )
