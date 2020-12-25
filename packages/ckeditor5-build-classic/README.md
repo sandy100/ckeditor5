@@ -9,21 +9,21 @@ Custom build of CKEditor 5 classic build. Forked from the official repository.
 
 The classic editor build for CKEditor 5. Read more about the [classic editor build](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/overview.html#classic-editor) and see the [demo](https://ckeditor.com/docs/ckeditor5/latest/examples/builds/classic-editor.html).
 
-![CKEditor 5 customized classic editor build screenshot](screenshot.png?raw=true "CKEditor Classic Editor")
+![CKEditor 5 customized classic editor build screenshot](https://github.com/sandy100/ckeditor5/blob/sandeep-dev/packages/ckeditor5-build-classic/screenshot.png "CKEditor Classic Editor")
 
 ## Plugins Included
 
-  - Alignment
-  - Bold
-	- Italic
-	- Heading
-	- FontSize
-	- FontFamily
-	- FontColor
-	- FontBackgroundColor
-	- Strikethrough
-	- Underline
-	- BlockQuote
+- Alignment
+- Bold
+- Italic
+- Heading
+- FontSize
+- FontFamily
+- FontColor
+- FontBackgroundColor
+- Strikethrough
+- Underline
+- BlockQuote
 
 ## Documentation
 

@@ -1,13 +1,47 @@
 CKEditor 5 document editor build
 ========================================
 
-[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-decoupled-document.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-decoupled-document)
+Custom build of CKEditor 5 decoupled document build. Forked from the official repository.
+
+[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-decoupled-document.svg)](https://www.npmjs.com/package/ckeditor5-build-decoupled-codefusion)
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor5-build-decoupled-document/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-decoupled-document)
 [![devDependency Status](https://david-dm.org/ckeditor/ckeditor5-build-decoupled-document/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-decoupled-document?type=dev)
 
 The document editor build for CKEditor 5, featuring the decoupled UI editor implementation. Read more about the [document editor build](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/overview.html#document-editor) and see the [demo](https://ckeditor.com/docs/ckeditor5/latest/examples/builds/document-editor.html).
 
-![CKEditor 5 decoupled document editor build screenshot](https://c.cksource.com/a/1/img/npm/ckeditor5-build-decoupled-document.png)
+![CKEditor 5 decoupled document editor build screenshot](https://github.com/sandy100/ckeditor5/blob/sandeep-dev/packages/ckeditor5-build-decoupled-document/screenshot.png "CKEditor Decoupled Document Editor")
+
+## Plugins Included
+
+- Essentials
+- Alignment
+- FontSize
+- FontFamily
+- FontColor
+- FontBackgroundColor
+- UploadAdapter
+- Autoformat
+- Bold
+- Italic
+- Strikethrough
+- Underline
+- BlockQuote
+- CKFinder
+- Heading
+- Indent
+- IndentBlock
+- Link
+- List
+- ListStyle
+- Paragraph
+- PasteFromOffice
+- Table
+- TableToolbar
+- TextTransformation
+- PageBreak
+- SpecialCharacters
+- SpecialCharactersEssentials
+-	HorizontalLine
 
 ## Documentation
 
@@ -23,7 +57,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @ckeditor/ckeditor5-build-decoupled-document
+npm install --save ckeditor5-build-decoupled-codefusion
 ```
 
 And use it in your website:
@@ -33,7 +67,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@ckeditor/ckeditor5-build-decoupled-document/build/ckeditor.js"></script>
+<script src="./node_modules/ckeditor5-build-decoupled-codefusion/build/ckeditor.js"></script>
 <script>
 	DecoupledEditor
 		.create( document.querySelector( '#editor' ) )
@@ -52,10 +86,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import DecoupledEditor from '@ckeditor/ckeditor5-build-decoupled-document';
+import DecoupledEditor from 'ckeditor5-build-decoupled-codefusion';
 
 // Or using the CommonJS version:
-// const DecoupledEditor = require( '@ckeditor/ckeditor5-build-decoupled-document' );
+// const DecoupledEditor = require( 'ckeditor5-build-decoupled-codefusion' );
 
 DecoupledEditor
 	.create( document.querySelector( '#editor' ) )
