@@ -37,6 +37,8 @@ The document editor build for CKEditor 5, featuring the decoupled UI editor impl
 - PasteFromOffice
 - Table
 - TableToolbar
+- TableProperties
+- TableCellProperties
 - TextTransformation
 - PageBreak
 - SpecialCharacters

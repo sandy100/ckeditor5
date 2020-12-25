@@ -24,6 +24,8 @@ The classic editor build for CKEditor 5. Read more about the [classic editor bui
 - Bold
 - Italic
 - Strikethrough
+- Subscript
+- Superscript
 - Underline
 - BlockQuote
 - CKFinder
@@ -36,6 +38,8 @@ The classic editor build for CKEditor 5. Read more about the [classic editor bui
 - Paragraph
 - PasteFromOffice
 - Table
+- TableProperties
+- TableCellProperties
 - TableToolbar
 - TextTransformation
 - PageBreak
